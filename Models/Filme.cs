@@ -8,6 +8,8 @@
 
         public int AnoLancamento { get; set; }
 
+        public int DuracaoMinutos { get; set; }
+
         public int DiretorId { get; set; }
 
         public Diretor? Diretor { get; set; }
